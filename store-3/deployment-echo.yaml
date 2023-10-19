@@ -7,7 +7,7 @@ metadata: # kpt-merge: echo/echo
     app: store-3
   annotations:
     internal.kpt.dev/upstream-identifier: apps|Deployment|echo|echo
-    apps.kubernetes.io/version: "2"
+    apps.kubernetes.io/version: "5"
 spec:
   selector:
     matchLabels:
